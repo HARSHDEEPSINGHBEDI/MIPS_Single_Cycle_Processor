@@ -22,6 +22,8 @@ A Verilog implementation of a 32-bit MIPS **single-cycle** CPU supporting exactl
 ## 📁 Repository Layout
 
 
+
+
 ---
 
 ## 🖼️ Datapath Diagram
@@ -70,9 +72,27 @@ A Verilog implementation of a 32-bit MIPS **single-cycle** CPU supporting exactl
 
 ---
 
-## 🔧 Testbench & `program1.mem`
+## 📝 Sample Program & Testbench
 
-- **`tb/program1.mem`** holds the 14 instructions in hex (one per line).  
+- **`tb/program1.mem`**  
+  One 32-bit hex word per line (big-endian), 14 entries:
+  ```text
+  01095020  # add  $t2,$t0,$t1
+  01095822  # sub  $t3,$t0,$t1
+  01096024  # and  $t4,$t0,$t1
+  01096825  # or   $t5,$t0,$t1
+  ad0b0004  # sw   $t3,4($t0)
+  8d0c0004  # lw   $t4,4($t0)
+  0109702a  # slt  $t6,$t0,$t1
+  00128082  # srl  $s0,$t1,2
+  11090002  # beq  $t0,$t1,offset
+  15090000  # bne  $t0,$t1,offset
+  0800000c  # j    0x30
+  00000000  # nop
+  0c00000d  # jal  0x34
+  2d0a0001  # sltiu $t2,$t0,1
+  950c0002  # lhu  $t4,2($t0)
+
 - To **modify the program**, open `tb/program1.mem`, edit or reorder the 14 hex words, save, and rerun the testbench.  
 - **Initialization in `processor_tb.v`** before simulation:
   1. **Registers**  
