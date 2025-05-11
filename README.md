@@ -20,31 +20,34 @@ A Verilog implementation of a 32-bit MIPS **single-cycle** CPU supporting exactl
 ---
 
 ## 📁 Repository Layout
+
+```text
 MIPS_SingleCycleProcessor/
-├── src/ # All Verilog modules for the CPU
-│ ├── pc.v # Program Counter
-│ ├── adder.v # PC+4 adder
-│ ├── instr_mem.v # Instruction memory + decoder
-│ ├── control_unit.v # Generates control signals
-│ ├── reg_file.v # 32×32 register file
-│ ├── sign_ext.v # Sign/zero‐extender
-│ ├── mux_reg_dst.v # RegDest MUX
-│ ├── shift_left_2_branch.v # Branch‐offset shifter
-│ ├── mux_alu_src.v # ALU‐src MUX
-│ ├── alu_control.v # ALU control decoder
-│ ├── alu.v # Core ALU (add/sub/and/or/slt/srl)
-│ ├── data_mem.v # Data memory (word + half‐word)
-│ ├── mux_memtoreg.v # Mem-to-Reg MUX
-│ ├── shift_left_2_jump.v # Jump‐address shifter
-│ ├── alu_branch.v # Branch‐target adder
-│ ├── mux_br_sel.v # Branch MUX (beq/bne)
-│ └── mux_jump_sel.v # Final PC‐in MUX (branch vs. jump)
-├── tb/ # Testbench + program memory
-│ ├── processor_tb.v # Drives the 14-instruction test
-│ └── program1.mem # 14×32-bit hex instructions
-├── img/ # Images & diagrams
-│ └── Screenshot 2025-05-12 003011.png
-└── README.md # Project overview (this file)
+├── src/                       # All Verilog modules for the CPU
+│   ├── pc.v                   # Program Counter
+│   ├── adder.v                # PC+4 adder
+│   ├── instr_mem.v            # Instruction memory + decoder
+│   ├── control_unit.v         # Control‐signal generator
+│   ├── reg_file.v             # 32×32 register file
+│   ├── sign_ext.v             # Sign/zero‐extender
+│   ├── mux_reg_dst.v          # RegDest MUX
+│   ├── shift_left_2_branch.v  # Branch‐offset shifter
+│   ├── mux_alu_src.v          # ALU‐src MUX
+│   ├── alu_control.v          # ALU control decoder
+│   ├── alu.v                  # Core ALU (add/sub/and/or/slt/srl)
+│   ├── data_mem.v             # Data memory (word + half‐word)
+│   ├── mux_memtoreg.v         # Mem‐to‐Reg MUX
+│   ├── shift_left_2_jump.v    # Jump‐address shifter
+│   ├── alu_branch.v           # Branch‐target adder
+│   ├── mux_br_sel.v           # Branch MUX (beq/bne)
+│   └── mux_jump_sel.v         # Final PC‐in MUX (branch vs. jump)
+├── tb/                        # Testbench & program file
+│   ├── processor_tb.v         # Drives the 14‐instruction test
+│   └── program1.mem           # 14×32-bit instruction hex words
+├── img/                       # Diagrams
+│   └── Screenshot 2025-05-12 003011.png
+└── README.md                  # This file
+
 
 
 
