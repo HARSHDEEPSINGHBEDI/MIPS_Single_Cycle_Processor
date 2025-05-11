@@ -1,6 +1,6 @@
 # MIPS Single-Cycle Processor – Harshdeep Singh
 
-A Verilog implementation of a 32-bit MIPS **single-cycle** CPU supporting exactly **14 instructions**:
+A Verilog implementation of a 32-bit MIPS **single-cycle** CPU supporting exactly **14 instructions** strictly according to the **single-cycle-datapath**:
 
 1. `add`  
 2. `sub`  
@@ -59,7 +59,7 @@ MIPS_SingleCycleProcessor/
 
 ---
 
-## 🎛️ Control-Signal Cheat Sheet
+## 🎛️ Control-Signal 
 
 ### 1-bit control signals
 
