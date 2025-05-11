@@ -48,7 +48,7 @@ MIPS_SingleCycleProcessor/
 │   └── Screenshot 2025-05-12 003011.png
 └── README.md                  # This file
 
-
+```
 
 
 ---
