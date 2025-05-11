@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="26.990 ns"></ZoomStartTime>
+      <ZoomEndTime time="102.791 ns"></ZoomEndTime>
+      <Cursor1Time time="85.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="258"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="99" />
+   <wvobject fp_name="/processor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/PC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/PC/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/PC/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/PC/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ADD/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ADD/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/instr_address" type="array">
+      <obj_property name="ElementShortName">instr_address[25:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_address[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/INSTR_MEM/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/Jal" type="logic">
+      <obj_property name="ElementShortName">Jal</obj_property>
+      <obj_property name="ObjectShortName">Jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/mem_mode" type="array">
+      <obj_property name="ElementShortName">mem_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/Control/Bne" type="logic">
+      <obj_property name="ElementShortName">Bne</obj_property>
+      <obj_property name="ObjectShortName">Bne</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SIGN_EXTEND/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SIGN_EXTEND/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SIGN_EXTEND/imm_ext" type="array">
+      <obj_property name="ElementShortName">imm_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_REG_DST/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_REG_DST/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_REG_DST/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_REG_DST/Jal" type="logic">
+      <obj_property name="ElementShortName">Jal</obj_property>
+      <obj_property name="ObjectShortName">Jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_REG_DST/reg_dst_out" type="array">
+      <obj_property name="ElementShortName">reg_dst_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dst_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SHIFT_LEFT_BRANCH/imm_ext" type="array">
+      <obj_property name="ElementShortName">imm_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SHIFT_LEFT_BRANCH/shift_left" type="array">
+      <obj_property name="ElementShortName">shift_left[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_left[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_ALU_SRC/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_ALU_SRC/imm_ext" type="array">
+      <obj_property name="ElementShortName">imm_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_ALU_SRC/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_ALU_SRC/alu_src_out" type="array">
+      <obj_property name="ElementShortName">alu_src_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_CONTROL/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_CONTROL/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_CONTROL/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/alu_src_out" type="array">
+      <obj_property name="ElementShortName">alu_src_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/mem_mode" type="array">
+      <obj_property name="ElementShortName">mem_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/read_data_mem" type="array">
+      <obj_property name="ElementShortName">read_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DATA_MEMORY/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/read_data_mem" type="array">
+      <obj_property name="ElementShortName">read_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/Jal" type="logic">
+      <obj_property name="ElementShortName">Jal</obj_property>
+      <obj_property name="ObjectShortName">Jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_MEMTOREG/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SHIFT_LEFT_JUMP/instr_address" type="array">
+      <obj_property name="ElementShortName">instr_address[25:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_address[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/SHIFT_LEFT_JUMP/jump_shifted" type="array">
+      <obj_property name="ElementShortName">jump_shifted[27:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_shifted[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_BRANCH/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_BRANCH/shift_left" type="array">
+      <obj_property name="ElementShortName">shift_left[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_left[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU_BRANCH/branch_target" type="array">
+      <obj_property name="ElementShortName">branch_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/branch_target" type="array">
+      <obj_property name="ElementShortName">branch_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/Bne" type="logic">
+      <obj_property name="ElementShortName">Bne</obj_property>
+      <obj_property name="ObjectShortName">Bne</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/zero_flag" type="logic">
+      <obj_property name="ElementShortName">zero_flag</obj_property>
+      <obj_property name="ObjectShortName">zero_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_BR_SEL/br_final" type="array">
+      <obj_property name="ElementShortName">br_final[31:0]</obj_property>
+      <obj_property name="ObjectShortName">br_final[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_JUMP_SEL/br_final" type="array">
+      <obj_property name="ElementShortName">br_final[31:0]</obj_property>
+      <obj_property name="ObjectShortName">br_final[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_JUMP_SEL/jump_shifted" type="array">
+      <obj_property name="ElementShortName">jump_shifted[27:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_shifted[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_JUMP_SEL/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_JUMP_SEL/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/MUX_JUMP_SEL/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/reg_dst_out" type="array">
+      <obj_property name="ElementShortName">reg_dst_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dst_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/REG_FILE/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+   </wvobject>
+</wave_config>

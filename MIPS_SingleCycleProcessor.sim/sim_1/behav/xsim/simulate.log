@@ -1,0 +1,33 @@
+Time resolution is 1 ps
+
+==== Single-Cycle MIPS Test ====
+
+
+T=25000 | PC=4 | instr=0x01095822
+
+T=35000 | PC=8 | instr=0x01096024
+
+T=45000 | PC=12 | instr=0x01096825
+
+T=55000 | PC=16 | instr=0xad0b0004
+
+T=65000 | PC=20 | instr=0x8d0c0004
+
+T=75000 | PC=24 | instr=0x0109702a
+
+T=85000 | PC=28 | instr=0x00128082
+
+T=95000 | PC=32 | instr=0x11090002
+
+T=105000 | PC=36 | instr=0x15090000
+
+T=115000 | PC=40 | instr=0x0800000c
+
+T=125000 | PC=48 | instr=0x0c00000d
+
+T=135000 | PC=52 | instr=0x2d0a0001
+
+T=145000 | PC=56 | instr=0x950c0002
+
+T=155000 | PC=60 | instr=0xxxxxxxxx
+$finish called at time : 155 ns : File "D:/Vivado-25/MIPS_SingleCycleProcessor/MIPS_SingleCycleProcessor.srcs/sim_1/new/processor_tb.v" Line 39

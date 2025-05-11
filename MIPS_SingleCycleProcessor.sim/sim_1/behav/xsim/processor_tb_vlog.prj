@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/add.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/alu.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/alub.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/control_uni.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/dm.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/instr_mem.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/jump.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/mux.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/mux2.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/mux3.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/mux4.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/mux5.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/muxj.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/pc.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/processor.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/reg_file.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/sign_ext.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sources_1/new/slj.v" \
+"../../../../MIPS_SingleCycleProcessor.srcs/sim_1/new/processor_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

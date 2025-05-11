@@ -1,0 +1,18 @@
+01095020  // add
+01095822  // sub
+01096024  // and
+01096825  // or
+ad0b0004  // sw
+8d0c0004  // lw//
+0109702a  // slt
+00128082  // srl 
+11090002  // beq
+15090000  // bne
+0800000C  // j → jump to 0x30
+
+00000000  // NOP filler for 0x28 (optional)
+
+0c00000d  // jal ← move here to 0x30
+
+2d0a0001  // sltiu
+950c0002  // lhu//
